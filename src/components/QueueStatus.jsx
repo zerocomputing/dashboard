@@ -15,7 +15,7 @@ const MOCK_QUEUE_ITEMS = [
     startTime: new Date(Date.now() - 120000),
     estimatedTime: 180,
     progress: 65,
-    circuit: 'Payment Verification',
+    circuit: 'Aleo Verification',
     size: '2.4MB'
   },
   { 
@@ -25,7 +25,7 @@ const MOCK_QUEUE_ITEMS = [
     startTime: new Date(Date.now() - 60000),
     estimatedTime: 240,
     progress: 0,
-    circuit: 'Identity Proof',
+    circuit: 'Aztec Protocol',
     size: '3.1MB'
   },
   { 
@@ -35,7 +35,7 @@ const MOCK_QUEUE_ITEMS = [
     startTime: new Date(Date.now() - 300000),
     estimatedTime: 120,
     progress: 100,
-    circuit: 'Asset Transfer',
+    circuit: 'Bonsol Proof',
     size: '1.8MB'
   },
   { 
@@ -45,18 +45,28 @@ const MOCK_QUEUE_ITEMS = [
     startTime: new Date(Date.now() - 90000),
     estimatedTime: 300,
     progress: 25,
-    circuit: 'Balance Proof',
+    circuit: 'Cysic Network',
     size: '2.9MB'
   },
   { 
     id: '5',
-    status: 'failed',
+    status: 'completed',
     priority: 'medium',
     startTime: new Date(Date.now() - 180000),
     estimatedTime: 200,
-    progress: 0,
-    circuit: 'Ownership Verification',
+    progress: 100,
+    circuit: 'Holonym Identity',
     size: '2.2MB'
+  },
+  { 
+    id: '6',
+    status: 'pending',
+    priority: 'high',
+    startTime: new Date(Date.now() - 30000),
+    estimatedTime: 240,
+    progress: 0,
+    circuit: 'Space and Time',
+    size: '2.7MB'
   }
 ]
 

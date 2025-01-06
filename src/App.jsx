@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar'
 import Dashboard from './components/Dashboard'
 import Metrics from './components/Metrics'
 import QueueStatus from './components/QueueStatus'
+import History from './components/History'
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -18,7 +19,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/metrics" element={<Metrics />} />
               <Route path="/queue" element={<QueueStatus />} />
-              <Route path="/history" element={<div>History page coming soon...</div>} />
+              <Route path="/history" element={<History />} />
             </Routes>
           </main>
         </div>
